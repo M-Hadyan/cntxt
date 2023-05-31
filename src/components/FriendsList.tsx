@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectFriend } from '../store';
+import { selectFriend } from '../store/actions';
 
 //The FriendsList component provides the foundation for selecting friends and managing the UI state related to friend selection. This integration with Redux allows for seamless state management and updates across the application.
 
