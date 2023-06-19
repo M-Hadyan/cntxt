@@ -25,9 +25,10 @@ const ChatWindow = () => {
     e.preventDefault();
     if (selectedFriendId !== null && message.trim() !== '') {
       dispatch(addMessage(selectedFriendId, message));
-      setMessage('');
+      setMessage(''); // This line clears the input field after sending a message
     }
   };
+  
 
   const [editedMessage, setEditedMessage] = useState('');
   const [editingMessageId, setEditingMessageId] = useState<string | null>(null);
