@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addMessage } from '../store/actions';
 // import './ChatWindow.scss';
 
-const ChatWindow: React.FC = () => {
+const ChatWindow = () => {
   const friends = useSelector((state: any) => state.friends);
   const selectedFriendId = useSelector((state: any) => state.selectedFriendId);
   const dispatch = useDispatch();
