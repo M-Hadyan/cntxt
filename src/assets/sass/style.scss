@@ -1,0 +1,20 @@
+// Initialize
+@import "init";
+
+// Components
+@import "components/components";
+
+.chat-message {
+    position: relative;
+  }
+  
+  .chat-message.hover .delete-button {
+    visibility: visible;
+  }
+  
+  .delete-button {
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+  }
+  

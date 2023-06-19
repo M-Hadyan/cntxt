@@ -4,7 +4,7 @@ import { selectFriend } from '../store/actions';
 
 //The FriendsList component provides the foundation for selecting friends and managing the UI state related to friend selection. This integration with Redux allows for seamless state management and updates across the application.
 
-const FriendsList: React.FC = () => {
+const FriendsList = () => {
   // Retrieve the friends array from the state using useSelector
   const friends = useSelector((state: any) => state.friends);
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './assets/sass/style.scss';
 import ChatWindow from './components/ChatWindow';
 import FriendsList from './components/FriendsList';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="app">
       <FriendsList />
